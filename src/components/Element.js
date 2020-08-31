@@ -1,11 +1,12 @@
 export let element = (data)=>{
 let wrapDiv = document.createElement('div')
+
 let title = document.createElement('h1')
 title.textContent = data.name
 let founder = document.createElement('p')
-founder.textContent = data.founder
+founder.textContent = `Founder:  ${data.founder}`
 let founded = document.createElement('p')
-founded.textContent = data.founded
+founded.textContent = `Founded: ${data.founded}`
 let line = document.createElement('hr')
 // let sbox = document.createElement('select')
 // let option1 = document.createElement('option')

@@ -1,4 +1,33 @@
+#app{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
 .slika{
     width: 300px;
     height: 300px;
+}
+#sbox{
+    margin-bottom: 10px;
+}
+#header {
+    display: flex;
+    justify-content: space-around;
+
+}
+.wrapDiv{
+    display:flex;
+    flex-wrap: wrap;
+  
+
+}
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 10px;
+}
+.innerDiv:hover {
+    background-color: aliceblue;
 }
